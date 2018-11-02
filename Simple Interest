@@ -1,0 +1,23 @@
+// A simple code to find the simple interest.... (in C)
+
+
+#include<stdio.h>
+#include<conio.h>
+
+ void main()
+ { float p,r,n,si;
+  clrscr();
+
+   printf("\n enter principal amount");
+   scanf("%f",&p);
+
+   printf("\n enter time period");
+   scanf("%f",&n);
+
+   printf("\n enter rate of interest");
+   scanf("%f",&r);
+
+   si=(p*r*n)/100;
+   printf("\n simple interest is %f", si);
+
+   getch();}
